@@ -47,9 +47,10 @@ cacheSolve <- function(x, ...) {
     return(invsm)
 }
 
-m <- matrix(rnorm(25), nrow=5)
-m1 <- solve(m)
-x <- makeCacheMatrix(m)
-cacheSolve(x)
-m2 <- cacheSolve(x)
-m1 == m2
+## Tests
+# m <- matrix(rnorm(25), nrow=5)
+# m1 <- solve(m)
+# x <- makeCacheMatrix(m)
+# cacheSolve(x)
+# m2 <- cacheSolve(x)
+# m1 == m2
